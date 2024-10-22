@@ -1,0 +1,228 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+/* bold */
+/* semi */
+/* med */
+/* reg */
+.container {
+  max-width: 1230px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #0f0f10;
+  text-transform: uppercase;
+}
+
+.h2-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #0f0f10;
+}
+
+.h3-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #0f0f10;
+}
+
+body {
+  background-color: #edeef3;
+  font-family: "Inter", sans-serif;
+}
+
+.main-page {
+  overflow-y: hidden;
+}
+
+.header {
+  margin-top: 32px;
+}
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__menu {
+  display: flex;
+  gap: 32px;
+  text-transform: uppercase;
+}
+.header__link {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0f0f10;
+}
+.header__box {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header__btn-lang svg {
+  width: 17px;
+  height: 10px;
+}
+.header__search {
+  width: 18px;
+  height: 18px;
+}
+.header__bag {
+  width: 20px;
+  height: 21px;
+}
+.header__btn-get {
+  margin-left: 6px;
+  border-radius: 8px;
+  background-color: #232325;
+  padding: 12px 48px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #dfdada;
+}
+
+.hero {
+  margin-top: 62px;
+}
+.hero__inner {
+  display: flex;
+  align-items: center;
+}
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 48%;
+  gap: 36px;
+}
+.hero__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+.hero__btn-catalog {
+  padding: 12px 80px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #0f0f10;
+  background-color: #eed917;
+}
+.hero__box-img {
+  position: relative;
+}
+.hero__light {
+  position: absolute;
+  top: 0;
+  right: 26%;
+  z-index: -10;
+}/*# sourceMappingURL=main.css.map */
