@@ -126,6 +126,7 @@ h1 {
 }
 
 .h2-title {
+  text-transform: none;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 48px;
@@ -191,6 +192,11 @@ body {
   font-size: 20px;
   font-weight: 500;
   color: #dfdada;
+  transition: 0.2s;
+}
+.header__btn-get:hover {
+  transition: 0.2s;
+  background-color: #424242;
 }
 
 .hero {
@@ -211,11 +217,19 @@ body {
   font-weight: 500;
 }
 .hero__btn-catalog {
+  border-radius: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
   padding: 12px 80px;
   font-size: 20px;
   font-weight: 500;
   color: #0f0f10;
   background-color: #eed917;
+  transition: 0.2s;
+}
+.hero__btn-catalog:hover {
+  transition: 0.2s;
+  background-color: #d3bf0e;
 }
 .hero__box-img {
   position: relative;
@@ -225,4 +239,8 @@ body {
   top: 0;
   right: 26%;
   z-index: -10;
+}
+
+.catalog {
+  margin-top: 108px;
 }/*# sourceMappingURL=main.css.map */
